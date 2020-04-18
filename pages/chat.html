@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSP сайт</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <ul id="menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li>Форум</li>
+        <li><a href="chat.html">Чат</a></li>
+        <li>Игры</li>
+    </ul>
+
+    <h1>Общий чат</h1>
+    <form id="send-form">
+        <div>
+            <label for="username">Имя</label>
+            <input type="text" required name="username" id="username">
+            <label for="message">Сообщение</label>
+            <textarea id="message1" required name="message"></textarea>
+            <button id="send-button">Отправить</button>
+        </div>
+    </form>
+    <p></p>
+    <div id="messages-list">
+        <p>В чат еще никто не писал :)<p>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
